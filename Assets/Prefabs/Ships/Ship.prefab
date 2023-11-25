@@ -193,9 +193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b017ed9e40e3419787bb8286d3205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthPoints: {fileID: 0}
+  _healthPoints: {fileID: 8862513644620693662}
   _renderer: {fileID: 1205449622801215826}
-  _sprites: {fileID: 0}
+  _sprites: {fileID: 11400000, guid: 3b0b4b21ae68196429a86d431964df82, type: 2}
   _percentageToSetDamaged: 75
 --- !u!114 &8862513644620693662
 MonoBehaviour:

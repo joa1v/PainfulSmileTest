@@ -144,8 +144,8 @@ MonoBehaviour:
   _movement: {fileID: 4646128470650089118}
   _healthPoints: {fileID: 5707406102418996686}
   _collisionDamage: 1
-  _timeToReturnToPool: 1.5
-  _distanceToShoot: 5
+  _delayToReturnToPool: 1.5
+  _distanceToShoot: 6
   _cannon: {fileID: 4689620882345475345}
 --- !u!114 &3352921930099691563
 MonoBehaviour:

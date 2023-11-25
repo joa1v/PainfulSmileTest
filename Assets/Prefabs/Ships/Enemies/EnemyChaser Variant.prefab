@@ -133,7 +133,7 @@ MonoBehaviour:
   _movement: {fileID: 8047637366402034641}
   _healthPoints: {fileID: 6980695067974727809}
   _collisionDamage: 2
-  _timeToReturnToPool: 1.5
+  _delayToReturnToPool: 1.5
 --- !u!114 &4760347557611966537 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6344928627603482710, guid: 92794c4d27c86e8498f43ce1f129599c, type: 3}

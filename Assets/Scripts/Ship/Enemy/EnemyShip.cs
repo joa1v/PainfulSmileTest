@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyShip : Ship, IPoolable
 {
-    [SerializeField] private float _timeToReturnToPool;
+    [SerializeField] private float _delayToReturnToPool;
     public string PoolTag { get; set; }
 
     protected override void OnEnable()
@@ -42,7 +42,7 @@ public class EnemyShip : Ship, IPoolable
 
     private IEnumerator WaitToReturn()
     {
-        yield return new WaitForSeconds(_timeToReturnToPool);
+        yield return new WaitForSeconds(_delayToReturnToPool);
         ObjectPooler.Instance.ReturnToPool(PoolTag, gameObject);
     }
 
