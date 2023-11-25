@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa047cef3a832944beed7a8cea89519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animations: {fileID: 6939345740860339649}
+  _animations: {fileID: 8319687365009266972}
   _movement: {fileID: 6830732471693173380}
   _healthPoints: {fileID: 5874163240531309012}
   _collisionDamage: 1
@@ -252,9 +252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 095bc2b076438054991ac88a59f5a671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6939345740860339649 stripped
+--- !u!114 &8319687365009266972 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7433223378880319758, guid: 5109f384379ccc44aa20df7a8e6da258, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8363440680990490067, guid: 5109f384379ccc44aa20df7a8e6da258, type: 3}
   m_PrefabInstance: {fileID: 533007403626783951}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3013051078110236275}

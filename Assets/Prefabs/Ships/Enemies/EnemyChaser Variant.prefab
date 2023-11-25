@@ -129,14 +129,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae058a6e9304f848af3c5bf6d095a03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animations: {fileID: 5848156501971795092}
+  _animations: {fileID: 4760347557611966537}
   _movement: {fileID: 8047637366402034641}
   _healthPoints: {fileID: 6980695067974727809}
   _collisionDamage: 2
   _timeToReturnToPool: 1.5
---- !u!114 &5848156501971795092 stripped
+--- !u!114 &4760347557611966537 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5419311682150483083, guid: 92794c4d27c86e8498f43ce1f129599c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6344928627603482710, guid: 92794c4d27c86e8498f43ce1f129599c, type: 3}
   m_PrefabInstance: {fileID: 1881818658898917407}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780558510424885030}

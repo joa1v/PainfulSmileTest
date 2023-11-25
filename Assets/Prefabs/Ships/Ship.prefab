@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 8481232004112880590}
   - component: {fileID: 7497364915318032214}
   - component: {fileID: 8862513644620693662}
-  - component: {fileID: 5419311682150483083}
   - component: {fileID: 6264343041236210311}
+  - component: {fileID: 6344928627603482710}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1400198026, guid: e8902a72a105ae44396bd205edc48976, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -210,20 +210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHp: 0
---- !u!114 &5419311682150483083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191473978310901561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b87c857780544f4f9f0c5aeb608df50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 6264343041236210311}
-  _explosionTrigger: explode
 --- !u!95 &6264343041236210311
 Animator:
   serializedVersion: 5
@@ -245,6 +231,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6344928627603482710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191473978310901561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b87c857780544f4f9f0c5aeb608df50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 6264343041236210311}
+  _explosionTrigger: explode
 --- !u!1 &730485281645618741
 GameObject:
   m_ObjectHideFlags: 0

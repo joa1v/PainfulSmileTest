@@ -503,6 +503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5efc5de834a1f94396351c583bd2c80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultSessionTime: 3
+  _defaultSpawnTime: 5
   _gameSessionTimeSlider: {fileID: 1036641432}
   _enemySpawnTimeSlider: {fileID: 2105830814}
 --- !u!1 &427122087

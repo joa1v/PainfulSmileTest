@@ -94,6 +94,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannon
       objectReference: {fileID: 0}
+    - target: {fileID: 2236373258681484824, guid: 92d174258bf1ba14a9a742b14b48a574, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6586747536458258145, guid: 92d174258bf1ba14a9a742b14b48a574, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
